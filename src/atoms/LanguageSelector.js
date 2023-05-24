@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 import { Select } from "antd";
 
 const languageOptions = [
-  { value: "en", label: "English" },
-  { value: "ru", label: "Russian" },
-  { value: "uz", label: "Uzbek" },
+  { value: "en", label: "En" },
+  { value: "ru", label: "Ru" },
+  { value: "uz", label: "Uz" },
   // Add more language options as needed
 ];
 

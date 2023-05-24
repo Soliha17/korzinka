@@ -1,0 +1,16 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .header-content {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .header-content .header-logo{
+    position: absolute;
+  }
+}

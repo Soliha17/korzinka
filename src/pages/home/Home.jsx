@@ -2,16 +2,18 @@ import React from "react";
 
 import { useTranslation } from "react-i18next";
 
+import "./Home.css";
+
 const Home = () => {
   const { t } = useTranslation();
 
   return (
     <div>
       Home
-      <div>
+      {/* <div>
         <h1>{t("greeting")}</h1>
         <p>{t("welcome")}</p>
-      </div>
+      </div> */}
     </div>
   );
 };

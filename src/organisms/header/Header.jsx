@@ -1,13 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import LanguageSelector from "../../molecules/LanguageSelector";
+
+import HeaderContent from "../../molecules/hero-content/HeaderContent";
+
+import "./Header.css";
 
 const Header = () => {
   return (
     <>
-      <div>
-        Header
-        <LanguageSelector />
+      <div className="header">
+        <HeaderContent />
       </div>
       <Outlet />
     </>
