@@ -1,0 +1,16 @@
+.footer {
+  padding: 29px 0;
+  text-align: center;
+  background: var(--light);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 9px;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black-75);
+}

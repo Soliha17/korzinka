@@ -1,4 +1,17 @@
 {
-  "greeting": "Salom!",
-  "welcome": "Saytimizga xush kelibsiz!"
+  "websiteText": "Veb-sayt",
+  "heroTitle": "Biz bilan kelajakni yarating, sizni izlayapmiz.",
+  "heroText": "Biz faxrlanadigan mahsulotlarni yaratamiz. Bu qiyin va shuning uchun ham qiziq. Biz har doim qiyinchiliklarni yaxshi ko'radigan, ulardan kutilganidan ham ko'proq narsani qilishga harakat qiladigan va boshqalar haqida o'ylaydigan mutaxassislarni qabul qilamiz: foydalanuvchilardan tortib hamkasblargacha.",
+  "heroBtn": "Vakansiyalarni ko'rish",
+  "ourVacanciesText": "Bizning vakansiyalar",
+  "homeSelectOne": "Joylashuv",
+  "homeSelectTwo": "Bo'limlar",
+  "homeSelectThree": "Fillial",
+  "homeVacancyTitle": "Mahsulot menejeri",
+  "homeVacancyLocation": "O'zbekistan, Toshkent",
+  "homeVacancyTime": "To'liq stavka",
+  "homeVacancyExp": "4 yil",
+  "homeVacancySalary": "12 mln -18 mln",
+  "homeVacancySubmitApplication": "Ariza qoldirish",
+  "footerText": "tomonidan ishlangan"
 }

@@ -1,4 +1,17 @@
 {
-  "greeting": "Hello!",
-  "welcome": "Welcome to our site!"
+  "websiteText": "Website",
+  "heroTitle": "Create the future with us, we are looking for you.",
+  "heroText": "We create products you can be proud of. It is difficult and therefore interesting. We always welcome professionals who love challenges, try to do more than what is expected of them, and think about others: from users to colleagues.",
+  "heroBtn": "View vacancies",
+  "ourVacanciesText": "Our vacancies",
+  "homeSelectOne": "Location",
+  "homeSelectTwo": "Departments",
+  "homeSelectThree": "Filial",
+  "homeVacancyTitle": "Product manager",
+  "homeVacancyLocation": "Uzbekistan, Tashkent",
+  "homeVacancyTime": "Full time",
+  "homeVacancyExp": "4 year",
+  "homeVacancySalary": "12 million -18 million",
+  "homeVacancySubmitApplication":"Submit an application",
+  "footerText":"Made by"
 }

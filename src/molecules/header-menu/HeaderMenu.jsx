@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import LanguageSelector from "../../atoms/LanguageSelector";
 
@@ -10,11 +11,13 @@ import Facebook from "../../assets/images/facebook.svg";
 import "./HeaderMenu.css";
 
 const HeaderMenu = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="header-menu">
       <div className="social-group__header-menu">
         <span>
-          <a href="/">Veb-sayt</a>
+          <a href="/">{t("websiteText")}</a>
         </span>
         <span>
           <img src={YouTube} alt="YouTube" />

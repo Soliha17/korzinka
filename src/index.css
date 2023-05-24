@@ -133,6 +133,20 @@ body {
   cursor: pointer;
 }
 
+.default-btn {
+  width: 172px;
+  height: 48px;
+  background-color: var(--white);
+  color: var(--black-75);
+  border-radius: 12px;
+  border: 1px solid var(--black-75);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
 @media only screen and (max-width: 1300px) {
   .container {
     max-width: 1100px;
