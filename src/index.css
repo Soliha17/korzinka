@@ -125,12 +125,19 @@ body {
 .primary-btn {
   background: var(--primary-100);
   border-radius: 12px;
-  border: none;
+  border: 1px solid transparent;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: var(--white);
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  border-color: var(--black-75);
+  color: var(--black-75);
+  background: transparent;
 }
 
 .default-btn {
