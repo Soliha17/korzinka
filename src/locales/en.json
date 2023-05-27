@@ -12,6 +12,22 @@
   "homeVacancyTime": "Full time",
   "homeVacancyExp": "4 year",
   "homeVacancySalary": "12 million -18 million",
-  "homeVacancySubmitApplication":"Submit",
-  "footerText":"Made by"
+  "homeVacancySubmitApplication": "Submit",
+  "footerText": "Made by",
+
+  "positionNameOfResume": "Product manager",
+  "submitFromHh": "Submission via HeadHunter",
+  "submitFromSmartjob": "Submit via Smartjob",
+  "nameLabel": "Name",
+  "surnameLabel": "Surname",
+  "birthdayLabel": "Date of birth",
+  "genderLabel": "Gender",
+  "countryLabel": "Country",
+  "cityLabel": "City",
+  "phoneLabel": "Your phone number",
+  "emailLabel": "E-mail",
+  "languageLabel": "Enter the languages you know",
+  "studyLevelLabel": "Education level",
+  "experienceOfJobLabel": "Work experience",
+  "submitBtnFooterResume": "Submission"
 }

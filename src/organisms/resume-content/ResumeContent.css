@@ -1,0 +1,132 @@
+.resume-content {
+  margin-top: 32px;
+  margin-bottom: 76px;
+  max-width: 818px;
+  border-radius: 26px;
+  border: 1px solid var(--light);
+}
+
+.header__resume {
+  padding: 40px 48px;
+  border-bottom: 1px solid var(--light);
+}
+
+.header__resume {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--black-100);
+}
+
+.content__resume {
+  padding: 32px 48px;
+}
+
+.submit-group {
+  margin-bottom: 32px;
+}
+
+.submit-btn {
+  padding: 8px;
+  background: var(--black-100);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.submit-btn p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.footer__resume .primary-btn {
+  width: 126px;
+  height: 48px;
+}
+
+.language-group {
+  width: 100%;
+  gap: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.language-group div {
+  display: flex;
+  gap: 15px;
+}
+
+.language-label {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black-75);
+}
+.language-group .ant-select {
+  width: 50%;
+}
+
+.action-btn__lan-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn__lan-resume .anticon-plus,
+.action-btn__lan-resume .anticon {
+  margin-inline-start: 0 !important;
+}
+
+.hidden-text__lan-resume {
+  display: none !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (max-width: 1000px) {
+  .resume-content {
+    max-width: 90%;
+    margin-top: 72px;
+    margin-bottom: 48px;
+  }
+
+  .header__resume {
+    padding: 32px;
+  }
+
+  .content__resume {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-lan-row__resume {
+    margin-top: 30px;
+  }
+
+  .hidden-text__lan-resume {
+    display: block !important;
+    margin-right: 8px;
+  }
+
+  .footer__resume .primary-btn {
+    width: 100%;
+  }
+
+  .resume-content {
+    margin-top: 32px;
+  }
+
+  .header__resume {
+    padding: 16px;
+  }
+
+  .content__resume {
+    padding: 16px;
+  }
+}

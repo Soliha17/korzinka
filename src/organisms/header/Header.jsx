@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 import KorzinkaLogo from "../../assets/images/korzinka-logo.png";
 
@@ -12,11 +12,13 @@ const Header = () => {
       <div className="header">
         <div className="header-content container">
           <div>
-            <img
-              src={KorzinkaLogo}
-              className="header-logo"
-              alt="KorzinkaLogo"
-            />
+            <Link to={"/"}>
+              <img
+                src={KorzinkaLogo}
+                className="header-logo"
+                alt="KorzinkaLogo"
+              />
+            </Link>
           </div>
           <HeaderMenu />
         </div>

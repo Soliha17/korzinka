@@ -13,5 +13,21 @@
   "homeVacancyExp": "4 yil",
   "homeVacancySalary": "12 mln -18 mln",
   "homeVacancySubmitApplication": "Ariza qoldirish",
-  "footerText": "tomonidan ishlangan"
+  "footerText": "tomonidan ishlangan",
+
+  "positionNameOfResume": "Mahsulot menejeri",
+  "submitFromHh": "HeadHunter orqali topshirish",
+  "submitFromSmartjob": "Smartjob orqali topshirish",
+  "nameLabel": "Ism",
+  "surnameLabel": "Familiya",
+  "birthdayLabel": "Tug'ilgan sana",
+  "genderLabel": "Jins",
+  "countryLabel": "Mamlakat",
+  "cityLabel": "Shahar",
+  "phoneLabel": "Telefon raqamingiz",
+  "emailLabel": "E-mail",
+  "languageLabel": "Biladigan tillaringizni kiriting",
+  "studyLevelLabel": "Ta'lim darajasi",
+  "experienceOfJobLabel": "Ish tajribasi",
+  "submitBtnFooterResume": "Topshirish"
 }

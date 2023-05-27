@@ -13,5 +13,21 @@
   "homeVacancyExp": "4 год",
   "homeVacancySalary": "12 миллионов -18 миллионов",
   "homeVacancySubmitApplication": "Подавать заявление",
-  "footerText": "сделан"
+  "footerText": "сделан",
+
+  "positionNameOfResume": "Менеджер по продукту",
+  "submitFromHh": "Подача через HeadHunter",
+  "submitFromSmartjob": "Отправить через Smartjob",
+  "nameLabel": "Имя",
+  "surnameLabel": "Фамилия",
+  "birthdayLabel": "Дата рождения",
+  "genderLabel": "Секс",
+  "countryLabel": "Страна",
+  "cityLabel": "Город",
+  "phoneLabel": "Ваш номер телефона",
+  "emailLabel": "Электронная почта",
+  "languageLabel": "Введите языки, которые вы знаете",
+  "studyLevelLabel": "Уровень образования",
+  "experienceOfJobLabel": "Опыт работы",
+  "submitBtnFooterResume": "Подчинение"
 }
