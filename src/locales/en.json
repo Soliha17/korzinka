@@ -29,5 +29,23 @@
   "languageLabel": "Enter the languages you know",
   "studyLevelLabel": "Education level",
   "experienceOfJobLabel": "Work experience",
-  "submitBtnFooterResume": "Submission"
+  "submitBtnFooterResume": "Submission",
+
+  "errorInput": "Please fill in the field!",
+
+  "submitToJobBtnVacancy": "Submit to work",
+  "dateOfPublicationTextVacancy": "Date Posted:",
+  "placeOfJobVacancy": "Place",
+  "applicationDeadlineTextVacancy": "Application deadline",
+  "typeOfJobTextVacancy": "Type of operation",
+  "workingFormatTextVacancy": "Working format",
+  "experienceTextVacancy": "Working format",
+  "educationLevelTextVacancy": "Education level",
+  "requiredLanguagesTextVacancy": "Required languages",
+  "salaryRangeTextVacancy": "Salary range",
+  "skillsHeaderVacancy": "Skills",
+  "directionsHeaderVacancy": "Directions",
+  "descHeaderVacancy": "Description",
+  "addressTextVacancy": "Address",
+  "showInMapBtn": "show on map"
 }

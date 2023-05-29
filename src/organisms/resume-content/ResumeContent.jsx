@@ -57,16 +57,6 @@ const ResumeContent = () => {
     console.log(date, dateString);
   };
 
-  const validateMessages = {
-    required: "Iltimos, ${label}ni kiriting!",
-    types: {
-      email: "${label} is not a valid email!",
-      number: "${label} is not a valid number!",
-    },
-    number: {
-      range: "${label} must be between ${0} and ${10}",
-    },
-  };
   const { Option } = Select;
 
   const prefixSelector = (
@@ -80,10 +70,21 @@ const ResumeContent = () => {
 
   const { t } = useTranslation();
 
+  const validateMessages = {
+    required: `${t("errorInput")}`,
+    types: {
+      email: "${label} is not a valid email!",
+      number: "${label} is not a valid number!",
+    },
+    number: {
+      range: "${label} must be between ${0} and ${10}",
+    },
+  };
+
   return (
     <div className="resume-content container">
       <div className="header__resume">
-        <h3>{t("positionNameOfResume")}</h3>
+        <h3>Mahsulot menejeri</h3>
       </div>
       <div className="content__resume">
         <Row gutter={[24, 23]} className="submit-group">

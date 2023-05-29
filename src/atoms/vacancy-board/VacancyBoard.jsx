@@ -14,23 +14,23 @@ const VacancyBoard = () => {
   return (
     <div className="vacancy-board">
       <div className="content__vacancy-board">
-        <h3>{t("homeVacancyTitle")}</h3>
+        <h3>Mahsulot menejeri</h3>
         <div className="infos__vacancy-board">
           <span>
             <img src={Location} alt="Location" />
-            <p>{t("homeVacancyLocation")}</p>
+            <p>O'zbekistan, Toshkent</p>
           </span>
           <span>
             <img src={Chart} alt="Chart" />
-            <p>{t("homeVacancyTime")}</p>
+            <p>To'liq stavka</p>
           </span>
           <span>
             <img src={Plan} alt="Plan" />
-            <p>{t("homeVacancyExp")}</p>
+            <p>4 yil</p>
           </span>
           <span>
             <img src={Cashback} alt="Cashback" />
-            <p>{t("homeVacancySalary")}</p>
+            <p>12 mln - 18mln</p>
           </span>
         </div>
       </div>

@@ -20,6 +20,7 @@ import CalendarIcon from "../../assets/images/calendar-icon.svg";
 import TimeplaceIcon from "../../assets/images/timeplace-icon.svg";
 import PendingActionIcon from "../../assets/images/pending-actions.svg";
 import PgCompLogo from "../../assets/images/pg-logo.png";
+import { useTranslation } from "react-i18next";
 
 const VacancyFullCard = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -32,6 +33,8 @@ const VacancyFullCard = () => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="vacancy-full-wrapper container">
@@ -41,11 +44,15 @@ const VacancyFullCard = () => {
               <div className="header-top__vacancy-full">
                 <p className="title__vacancy-full">Mahsulot menejeri</p>
               </div>
-              <button className="primary-btn">Ishga topshirish</button>
+              <button className="primary-btn">
+                {t("submitToJobBtnVacancy")}
+              </button>
             </div>
-            <p className="date__vacancy-full">
-              E'lon qilingan sana: 13-mart, 2023
-            </p>
+            <span>
+              <p className="date__vacancy-full">
+                {t("dateOfPublicationTextVacancy")} <span>13-mart, 2023</span>
+              </p>
+            </span>
             <div className="wrapper__vacancy-content">
               <Row gutter={[25, 25]}>
                 <Col
@@ -57,7 +64,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={LocationIcon} alt="LocationIcon" />
-                    <p>Joy</p>
+                    <p>{t("placeOfJobVacancy")}</p>
                   </div>
                   <span>Toshkent, O'zbekiston</span>
                 </Col>
@@ -70,7 +77,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={CalendarIcon} alt="CalendarIcon" />
-                    <p>Ariza topshirish muddati</p>
+                    <p>{t("applicationDeadlineTextVacancy")}</p>
                   </div>
                   <span>25.02.2023</span>
                 </Col>
@@ -83,7 +90,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={TimeplaceIcon} alt="TimeplaceIcon" />
-                    <p>Ishlash turi</p>
+                    <p>{t("typeOfJobTextVacancy")}</p>
                   </div>
                   <span>To’liq stavka</span>
                 </Col>
@@ -96,7 +103,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={AwayIcon} alt="LocationAwayIcon" />
-                    <p>Ishlash formati</p>
+                    <p>{t("workingFormatTextVacancy")}</p>
                   </div>
                   <span>Gibrid</span>
                 </Col>
@@ -109,7 +116,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={PendingActionIcon} alt="PendingActionIcon" />
-                    <p>Tajribasi</p>
+                    <p>{t("experienceTextVacancy")}</p>
                   </div>
                   <span>1-3 yil</span>
                 </Col>
@@ -122,7 +129,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={SchoolIcon} alt="SchoolIcon" />
-                    <p>Ma’lumot darajasi</p>
+                    <p>{t("educationLevelTextVacancy")}</p>
                   </div>
                   <span>-</span>
                 </Col>
@@ -135,7 +142,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={TranslateIcon} alt="LocationIcon" />
-                    <p>Talab qilinayotgan tillar</p>
+                    <p>{t("requiredLanguagesTextVacancy")}</p>
                   </div>
                   <span>Ingliz, Rus</span>
                 </Col>
@@ -148,7 +155,7 @@ const VacancyFullCard = () => {
                 >
                   <div>
                     <img src={BalanceIcon} alt="LocationIcon" />
-                    <p>ish haqqi oralig’i</p>
+                    <p>{t("salaryRangeTextVacancy")}</p>
                   </div>
                   <span>12 000 000 - 18 000 000 </span>
                 </Col>
@@ -157,7 +164,9 @@ const VacancyFullCard = () => {
           </div>
           <div className="info__vacancy-full">
             <div className="skills__vacancy-full">
-              <p className="section-name__vacancy-full">Ko'nikmalar</p>
+              <p className="section-name__vacancy-full">
+                {t("skillsHeaderVacancy")}
+              </p>
               <div className="skills-group__vacancy-full">
                 <p className="circle-text__vacancy-full">
                   O’rganishni o’rgana olish
@@ -175,14 +184,18 @@ const VacancyFullCard = () => {
               </div>
             </div>
             <div className="directions__vacancy-full">
-              <p className="section-name__vacancy-full">Yo’nalishlar</p>
+              <p className="section-name__vacancy-full">
+                {t("directionsHeaderVacancy")}
+              </p>
               <div className="professions-container">
                 <p className="circle-text__vacancy-full">Doimiy ishlay olish</p>
                 <p className="circle-text__vacancy-full">Strategik fikrlash</p>
               </div>
             </div>
             <div className="description__vacancy-full">
-              <h6 className="section-name__vacancy-full">Tavsif</h6>
+              <h6 className="section-name__vacancy-full">
+                {t("descHeaderVacancy")}
+              </h6>
               <p>Responsibilities:</p>
               <ul>
                 <li>
@@ -238,10 +251,12 @@ const VacancyFullCard = () => {
             <div className="address__vacancy-full">
               <div>
                 <img src={MapIcon} alt="map icon" />
-                <p className="address-text__vacancy-full">Manzil</p>
+                <p className="address-text__vacancy-full">
+                  {t("addressTextVacancy")}
+                </p>
               </div>
               <Button type="primary" size="medium" onClick={showModal}>
-                xaritada ko‘rsatish
+                {t("showInMapBtn")}
               </Button>
               <Modal
                 width={1200}
@@ -259,7 +274,9 @@ const VacancyFullCard = () => {
             </div>
           </div>
           <div className="footer__vacancy-full">
-            <button className="primary-btn ant-btn">Ishga topshirish</button>
+            <button className="primary-btn ant-btn">
+              {t("submitToJobBtnVacancy")}
+            </button>
           </div>
         </div>
       </div>

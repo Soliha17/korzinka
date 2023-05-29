@@ -7,15 +7,9 @@
   "homeSelectOne": "Joylashuv",
   "homeSelectTwo": "Bo'limlar",
   "homeSelectThree": "Fillial",
-  "homeVacancyTitle": "Mahsulot menejeri",
-  "homeVacancyLocation": "O'zbekistan, Toshkent",
-  "homeVacancyTime": "To'liq stavka",
-  "homeVacancyExp": "4 yil",
-  "homeVacancySalary": "12 mln -18 mln",
   "homeVacancySubmitApplication": "Ariza qoldirish",
   "footerText": "tomonidan ishlangan",
 
-  "positionNameOfResume": "Mahsulot menejeri",
   "submitFromHh": "HeadHunter orqali topshirish",
   "submitFromSmartjob": "Smartjob orqali topshirish",
   "nameLabel": "Ism",
@@ -29,5 +23,23 @@
   "languageLabel": "Biladigan tillaringizni kiriting",
   "studyLevelLabel": "Ta'lim darajasi",
   "experienceOfJobLabel": "Ish tajribasi",
-  "submitBtnFooterResume": "Topshirish"
+  "submitBtnFooterResume": "Topshirish",
+
+  "errorInput": "Iltimos, maydonni to'ldiring!",
+
+  "submitToJobBtnVacancy": "Ishga topshirish",
+  "dateOfPublicationTextVacancy": "E'lon qilingan sana:",
+  "placeOfJobVacancy": "Joy",
+  "applicationDeadlineTextVacancy": "Ariza topshirish muddati",
+  "typeOfJobTextVacancy": "Ishlash turi",
+  "workingFormatTextVacancy": "Ishlash formati",
+  "experienceTextVacancy": "Tajribasi",
+  "educationLevelTextVacancy": "Ma'lumot darajasi",
+  "requiredLanguagesTextVacancy": "Talab qilinayotgan tillar",
+  "salaryRangeTextVacancy": "Ish haqqi oralig'i",
+  "skillsHeaderVacancy": "Ko'nikmalar",
+  "directionsHeaderVacancy": "Yo'nalishlar",
+  "descHeaderVacancy": "Tavsif",
+  "addressTextVacancy": "Manzil",
+  "showInMapBtn": "xaritada ko'rsatish"
 }

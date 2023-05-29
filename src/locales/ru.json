@@ -29,5 +29,23 @@
   "languageLabel": "Введите языки, которые вы знаете",
   "studyLevelLabel": "Уровень образования",
   "experienceOfJobLabel": "Опыт работы",
-  "submitBtnFooterResume": "Подчинение"
+  "submitBtnFooterResume": "Подчинение",
+
+  "errorInput": "Пожалуйста, заполните поле!",
+
+  "submitToJobBtnVacancy": "Отправить на работу",
+  "dateOfPublicationTextVacancy": "Дата Отправки:",
+  "placeOfJobVacancy": "Место",
+  "applicationDeadlineTextVacancy": "Крайний срок подачи заявок",
+  "typeOfJobTextVacancy": "Тип операции",
+  "workingFormatTextVacancy": "Рабочий формат",
+  "experienceTextVacancy": "Рабочий формат",
+  "educationLevelTextVacancy": "Уровень образования",
+  "requiredLanguagesTextVacancy": "Требуемые языки",
+  "salaryRangeTextVacancy": "Диапазон заработной платы",
+  "skillsHeaderVacancy": "Навыки",
+  "directionsHeaderVacancy": "Направления",
+  "descHeaderVacancy": "Описание",
+  "addressTextVacancy": "Адрес",
+  "showInMapBtn": "показать на карте"
 }
